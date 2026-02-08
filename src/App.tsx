@@ -81,6 +81,8 @@ const PortfolioNayanShriMishra = () => {
     { name: "SQL", category: "Database" },
     { name: "Git & GitHub", category: "Tools" },
     { name: "Netlify", category: "Tools" },
+    { name: "Vercel", category: "Tools" },
+    { name: "Render", category: "Tools" },
     { name: "Postman", category: "Tools" },
     { name: "VS Code", category: "Tools" },
     { name: "Canva", category: "Tools" }
