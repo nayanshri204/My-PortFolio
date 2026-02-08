@@ -1,8 +1,9 @@
-|  #  | Project                                                                                                                     | Live Demo                                                                         |
-| :-: | --------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
-| 01  | [See The Result](https://github.com/nayanshri204/My-PortFolio.git)                             | [Live Demo](https://nayanshri204.github.io/My-PortFolio/)            |
+## 🌐 Live Demo
 
-
+| Type | Link |
+|-----|------|
+| 🌍 Website | [Live Demo](https://nayanshri204.github.io/My-PortFolio/) |
+| ⚙️ Github | [Source Code](https://github.com/nayanshri204/My-PortFolio.git) |         |
 
 
 # Getting Started with Create React App
