@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import myPhoto from "../src/Nancy Imag.jpeg";
 
 interface Project {
   id: number;
@@ -19,7 +20,7 @@ const PortfolioNayanShriMishra = () => {
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [activeNav, setActiveNav] = useState(false);
 
-  const fullName = "Nayan shri mishra";
+  const fullName = "Nayan Shri Mishra";
   const jobTitle = "Full-Stack Web Developer";
   const specializations = "React, Node.js & Databases";
 
@@ -36,9 +37,9 @@ const PortfolioNayanShriMishra = () => {
       id: 1,
       title: "Dynamic E-commerce Hub",
       description: "A comprehensive e-commerce platform built with React and Node.js, featuring product catalogs, user authentication, shopping cart, and a Stripe-integrated checkout process. Powered by a MongoDB database.",
-      technologies: ["React", "Node.js", "Express.js", "MongoDB", "Tailwind CSS"],
-      liveLink: "#",
-      repoLink: "#",
+      technologies: ["React", "Node.js", "Express.js", "MongoDB", "Tailwind CSS", "Stripe API", "JWT",],
+      liveLink: "https://e-commerce-hub-omega.vercel.app/",
+      repoLink: "https://github.com/nayanshri204/E-commerce-Hub.git",
     },
     {
       id: 2,
@@ -234,9 +235,7 @@ const PortfolioNayanShriMishra = () => {
             <div className="w-48 h-48 md:w-64 md:h-64 rounded-full bg-slate-700 border-4 border-sky-500 flex items-center justify-center overflow-hidden shadow-xl shrink-0">
 
               {/* Placeholder for an image of Nayan */}
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-24 w-24 text-sky-400" viewBox="0 0 20 20" fill="currentColor">
-                <path fillRule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clipRule="evenodd" />
-              </svg>
+              <img src={myPhoto} alt="My Profile" className='w-50 h-50 rounded-full border-4 border-sky-500' />
             </div>
             <div className="text-lg text-slate-300 space-y-4">
               <p>
