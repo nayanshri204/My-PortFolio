@@ -1,0 +1,21 @@
+{
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "eslint.ignorePath": ".eslintignore",
+  "eslint.workingDirectories": [
+    "./src"
+  ],
+  "files.exclude": {
+    "**/build": true,
+    "**/node_modules": true,
+    "**/.git": true
+  },
+  "search.exclude": {
+    "**/build": true,
+    "**/node_modules": true
+  }
+}
